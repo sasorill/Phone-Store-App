@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE829B2B-80CF-4D4B-9A82-320D33133E01}|Phone_Store_Business.csproj|c:\\users\\sasor\\source\\repos\\phone_store_business\\clscreditcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE829B2B-80CF-4D4B-9A82-320D33133E01}|Phone_Store_Business.csproj|solutionrelative:clscreditcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE829B2B-80CF-4D4B-9A82-320D33133E01}|Phone_Store_Business.csproj|C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\clsusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE829B2B-80CF-4D4B-9A82-320D33133E01}|Phone_Store_Business.csproj|solutionrelative:clsusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE829B2B-80CF-4D4B-9A82-320D33133E01}|Phone_Store_Business.csproj|C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\clscardclassics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE829B2B-80CF-4D4B-9A82-320D33133E01}|Phone_Store_Business.csproj|solutionrelative:clscardclassics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE829B2B-80CF-4D4B-9A82-320D33133E01}|Phone_Store_Business.csproj|C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\clsproductitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE829B2B-80CF-4D4B-9A82-320D33133E01}|Phone_Store_Business.csproj|solutionrelative:clsproductitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE829B2B-80CF-4D4B-9A82-320D33133E01}|Phone_Store_Business.csproj|C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\clscolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE829B2B-80CF-4D4B-9A82-320D33133E01}|Phone_Store_Business.csproj|solutionrelative:clscolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE829B2B-80CF-4D4B-9A82-320D33133E01}|Phone_Store_Business.csproj|C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\clspeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE829B2B-80CF-4D4B-9A82-320D33133E01}|Phone_Store_Business.csproj|solutionrelative:clspeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE829B2B-80CF-4D4B-9A82-320D33133E01}|Phone_Store_Business.csproj|C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\clsproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE829B2B-80CF-4D4B-9A82-320D33133E01}|Phone_Store_Business.csproj|solutionrelative:clsproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE829B2B-80CF-4D4B-9A82-320D33133E01}|Phone_Store_Business.csproj|C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\clscategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE829B2B-80CF-4D4B-9A82-320D33133E01}|Phone_Store_Business.csproj|solutionrelative:clscategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE829B2B-80CF-4D4B-9A82-320D33133E01}|Phone_Store_Business.csproj|C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\clscountries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE829B2B-80CF-4D4B-9A82-320D33133E01}|Phone_Store_Business.csproj|solutionrelative:clscountries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE829B2B-80CF-4D4B-9A82-320D33133E01}|Phone_Store_Business.csproj|C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\clsorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE829B2B-80CF-4D4B-9A82-320D33133E01}|Phone_Store_Business.csproj|solutionrelative:clsorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClsCardClassics.cs",
+              "DocumentMoniker": "C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\ClsCardClassics.cs",
+              "RelativeDocumentMoniker": "ClsCardClassics.cs",
+              "ToolTip": "C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\ClsCardClassics.cs",
+              "RelativeToolTip": "ClsCardClassics.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswCAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T14:01:24.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClsOrders.cs",
+              "DocumentMoniker": "C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\ClsOrders.cs",
+              "RelativeDocumentMoniker": "ClsOrders.cs",
+              "ToolTip": "C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\ClsOrders.cs",
+              "RelativeToolTip": "ClsOrders.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T22:04:09.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClsProductItems.cs",
+              "DocumentMoniker": "C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\ClsProductItems.cs",
+              "RelativeDocumentMoniker": "ClsProductItems.cs",
+              "ToolTip": "C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\ClsProductItems.cs",
+              "RelativeToolTip": "ClsProductItems.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T19:11:27.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClsProducts.cs",
+              "DocumentMoniker": "C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\ClsProducts.cs",
+              "RelativeDocumentMoniker": "ClsProducts.cs",
+              "ToolTip": "C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\ClsProducts.cs",
+              "RelativeToolTip": "ClsProducts.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAADwv5IAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T18:19:06.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClsCreditCard.cs",
+              "DocumentMoniker": "C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\ClsCreditCard.cs",
+              "RelativeDocumentMoniker": "ClsCreditCard.cs",
+              "ToolTip": "C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\ClsCreditCard.cs",
+              "RelativeToolTip": "ClsCreditCard.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T18:05:38.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClsColor.cs",
+              "DocumentMoniker": "C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\ClsColor.cs",
+              "RelativeDocumentMoniker": "ClsColor.cs",
+              "ToolTip": "C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\ClsColor.cs",
+              "RelativeToolTip": "ClsColor.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T18:01:43.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClsCategories.cs",
+              "DocumentMoniker": "C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\ClsCategories.cs",
+              "RelativeDocumentMoniker": "ClsCategories.cs",
+              "ToolTip": "C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\ClsCategories.cs",
+              "RelativeToolTip": "ClsCategories.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T17:16:51.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClsCountries.cs",
+              "DocumentMoniker": "C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\ClsCountries.cs",
+              "RelativeDocumentMoniker": "ClsCountries.cs",
+              "ToolTip": "C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\ClsCountries.cs",
+              "RelativeToolTip": "ClsCountries.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T17:10:58.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClsUsers.cs",
+              "DocumentMoniker": "C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\ClsUsers.cs",
+              "RelativeDocumentMoniker": "ClsUsers.cs",
+              "ToolTip": "C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\ClsUsers.cs",
+              "RelativeToolTip": "ClsUsers.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAADgvyIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T16:52:17.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClsPeople.cs",
+              "DocumentMoniker": "C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\ClsPeople.cs",
+              "RelativeDocumentMoniker": "ClsPeople.cs",
+              "ToolTip": "C:\\Users\\sasor\\source\\repos\\Phone_Store_Business\\ClsPeople.cs",
+              "RelativeToolTip": "ClsPeople.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAAwNAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T17:25:25.726Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

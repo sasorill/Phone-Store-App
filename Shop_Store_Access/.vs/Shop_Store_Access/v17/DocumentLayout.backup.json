@@ -1,0 +1,199 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B883A79-DCF5-47A5-B71D-CD79DDA8E116}|Shop_Store_Access.csproj|c:\\users\\sasor\\source\\repos\\shop_store_access\\clscardclassicsaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B883A79-DCF5-47A5-B71D-CD79DDA8E116}|Shop_Store_Access.csproj|solutionrelative:clscardclassicsaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B883A79-DCF5-47A5-B71D-CD79DDA8E116}|Shop_Store_Access.csproj|C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\clsproductitemaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B883A79-DCF5-47A5-B71D-CD79DDA8E116}|Shop_Store_Access.csproj|solutionrelative:clsproductitemaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B883A79-DCF5-47A5-B71D-CD79DDA8E116}|Shop_Store_Access.csproj|C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\clscreditcardaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B883A79-DCF5-47A5-B71D-CD79DDA8E116}|Shop_Store_Access.csproj|solutionrelative:clscreditcardaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B883A79-DCF5-47A5-B71D-CD79DDA8E116}|Shop_Store_Access.csproj|C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\clscolouraccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B883A79-DCF5-47A5-B71D-CD79DDA8E116}|Shop_Store_Access.csproj|solutionrelative:clscolouraccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B883A79-DCF5-47A5-B71D-CD79DDA8E116}|Shop_Store_Access.csproj|C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\clsordersaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B883A79-DCF5-47A5-B71D-CD79DDA8E116}|Shop_Store_Access.csproj|solutionrelative:clsordersaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B883A79-DCF5-47A5-B71D-CD79DDA8E116}|Shop_Store_Access.csproj|C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\clsproductaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B883A79-DCF5-47A5-B71D-CD79DDA8E116}|Shop_Store_Access.csproj|solutionrelative:clsproductaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B883A79-DCF5-47A5-B71D-CD79DDA8E116}|Shop_Store_Access.csproj|C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\clspersonaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B883A79-DCF5-47A5-B71D-CD79DDA8E116}|Shop_Store_Access.csproj|solutionrelative:clspersonaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B883A79-DCF5-47A5-B71D-CD79DDA8E116}|Shop_Store_Access.csproj|C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\clsuseraccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B883A79-DCF5-47A5-B71D-CD79DDA8E116}|Shop_Store_Access.csproj|solutionrelative:clsuseraccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B883A79-DCF5-47A5-B71D-CD79DDA8E116}|Shop_Store_Access.csproj|C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\clscountriesaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B883A79-DCF5-47A5-B71D-CD79DDA8E116}|Shop_Store_Access.csproj|solutionrelative:clscountriesaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B883A79-DCF5-47A5-B71D-CD79DDA8E116}|Shop_Store_Access.csproj|C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\clscategoriesaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B883A79-DCF5-47A5-B71D-CD79DDA8E116}|Shop_Store_Access.csproj|solutionrelative:clscategoriesaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B883A79-DCF5-47A5-B71D-CD79DDA8E116}|Shop_Store_Access.csproj|C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\clsconnectiontodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B883A79-DCF5-47A5-B71D-CD79DDA8E116}|Shop_Store_Access.csproj|solutionrelative:clsconnectiontodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClsCardClassicsAccess.cs",
+              "DocumentMoniker": "C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\ClsCardClassicsAccess.cs",
+              "RelativeDocumentMoniker": "ClsCardClassicsAccess.cs",
+              "ToolTip": "C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\ClsCardClassicsAccess.cs*",
+              "RelativeToolTip": "ClsCardClassicsAccess.cs*",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T13:50:02.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClsProductItemAccess.cs",
+              "DocumentMoniker": "C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\ClsProductItemAccess.cs",
+              "RelativeDocumentMoniker": "ClsProductItemAccess.cs",
+              "ToolTip": "C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\ClsProductItemAccess.cs",
+              "RelativeToolTip": "ClsProductItemAccess.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAGwAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T09:34:28.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClsProductAccess.cs",
+              "DocumentMoniker": "C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\ClsProductAccess.cs",
+              "RelativeDocumentMoniker": "ClsProductAccess.cs",
+              "ToolTip": "C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\ClsProductAccess.cs",
+              "RelativeToolTip": "ClsProductAccess.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAFgAAADZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T08:18:18.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClsUserAccess.cs",
+              "DocumentMoniker": "C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\ClsUserAccess.cs",
+              "RelativeDocumentMoniker": "ClsUserAccess.cs",
+              "ToolTip": "C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\ClsUserAccess.cs",
+              "RelativeToolTip": "ClsUserAccess.cs",
+              "ViewState": "AgIAADkBAAAAAAAAAAAAwEABAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T05:36:46.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClsOrdersAccess.cs",
+              "DocumentMoniker": "C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\ClsOrdersAccess.cs",
+              "RelativeDocumentMoniker": "ClsOrdersAccess.cs",
+              "ToolTip": "C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\ClsOrdersAccess.cs",
+              "RelativeToolTip": "ClsOrdersAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T16:39:45.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClsColourAccess.cs",
+              "DocumentMoniker": "C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\ClsColourAccess.cs",
+              "RelativeDocumentMoniker": "ClsColourAccess.cs",
+              "ToolTip": "C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\ClsColourAccess.cs",
+              "RelativeToolTip": "ClsColourAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T19:50:18.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClsPersonAccess.cs",
+              "DocumentMoniker": "C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\ClsPersonAccess.cs",
+              "RelativeDocumentMoniker": "ClsPersonAccess.cs",
+              "ToolTip": "C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\ClsPersonAccess.cs",
+              "RelativeToolTip": "ClsPersonAccess.cs",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAAwLsBAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T15:14:08.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClsCountriesAccess.cs",
+              "DocumentMoniker": "C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\ClsCountriesAccess.cs",
+              "RelativeDocumentMoniker": "ClsCountriesAccess.cs",
+              "ToolTip": "C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\ClsCountriesAccess.cs",
+              "RelativeToolTip": "ClsCountriesAccess.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACMAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T19:36:23.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClsCreditCardAccess.cs",
+              "DocumentMoniker": "C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\ClsCreditCardAccess.cs",
+              "RelativeDocumentMoniker": "ClsCreditCardAccess.cs",
+              "ToolTip": "C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\ClsCreditCardAccess.cs",
+              "RelativeToolTip": "ClsCreditCardAccess.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAswMIAAACaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T13:30:21.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClsCategoriesAccess.cs",
+              "DocumentMoniker": "C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\ClsCategoriesAccess.cs",
+              "RelativeDocumentMoniker": "ClsCategoriesAccess.cs",
+              "ToolTip": "C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\ClsCategoriesAccess.cs",
+              "RelativeToolTip": "ClsCategoriesAccess.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T20:08:51.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClsConnectionToDB.cs",
+              "DocumentMoniker": "C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\ClsConnectionToDB.cs",
+              "RelativeDocumentMoniker": "ClsConnectionToDB.cs",
+              "ToolTip": "C:\\Users\\sasor\\source\\repos\\Shop_Store_Access\\ClsConnectionToDB.cs",
+              "RelativeToolTip": "ClsConnectionToDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T15:16:19.839Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

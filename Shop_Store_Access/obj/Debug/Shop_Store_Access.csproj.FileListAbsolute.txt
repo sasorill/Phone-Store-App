@@ -1,0 +1,6 @@
+C:\Users\sasor\source\repos\Shop_Store_Access\bin\Debug\Shop_Store_Access.dll
+C:\Users\sasor\source\repos\Shop_Store_Access\bin\Debug\Shop_Store_Access.pdb
+C:\Users\sasor\source\repos\Shop_Store_Access\obj\Debug\Shop_Store_Access.csproj.AssemblyReference.cache
+C:\Users\sasor\source\repos\Shop_Store_Access\obj\Debug\Shop_Store_Access.csproj.CoreCompileInputs.cache
+C:\Users\sasor\source\repos\Shop_Store_Access\obj\Debug\Shop_Store_Access.dll
+C:\Users\sasor\source\repos\Shop_Store_Access\obj\Debug\Shop_Store_Access.pdb

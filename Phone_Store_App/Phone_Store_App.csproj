@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B67C0197-CC26-4079-941D-B4086BEDEBB4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Phone_Store_App</RootNamespace>
+    <AssemblyName>Phone_Store_App</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>packages\BouncyCastle.Cryptography.2.4.0\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="MimeKit, Version=4.7.0.0, Culture=neutral, PublicKeyToken=bede1c8a46c66814, processorArchitecture=MSIL">
+      <HintPath>packages\MimeKit.4.7.1\lib\net48\MimeKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Phone_Store_Business">
+      <HintPath>..\Phone_Store_Business\bin\Debug\Phone_Store_Business.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GlobalClasses\ClsUtilizationLogin.cs" />
+    <Compile Include="GlobalClasses\ClsValidate.cs" />
+    <Compile Include="CreditCards\Controls\ctrlCardDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CreditCards\Controls\ctrlCardDetails.Designer.cs">
+      <DependentUpon>ctrlCardDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Orders\Controls\ctrlProductItems.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Orders\Controls\ctrlProductItems.Designer.cs">
+      <DependentUpon>ctrlProductItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Peopple\Controls\ctrlContactByPhone.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Peopple\Controls\ctrlContactByPhone.Designer.cs">
+      <DependentUpon>ctrlContactByPhone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreditCards\Controls\ctrlFindCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CreditCards\Controls\ctrlFindCard.Designer.cs">
+      <DependentUpon>ctrlFindCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Peopple\Controls\ctrlFindPerson.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Peopple\Controls\ctrlFindPerson.Designer.cs">
+      <DependentUpon>ctrlFindPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductOrders\Controls\ctrlFindProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProductOrders\Controls\ctrlFindProduct.Designer.cs">
+      <DependentUpon>ctrlFindProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\Controls\ctrlFindUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users\Controls\ctrlFindUser.Designer.cs">
+      <DependentUpon>ctrlFindUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Peopple\Controls\ctrlPersonDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Peopple\Controls\ctrlPersonDetails.Designer.cs">
+      <DependentUpon>ctrlPersonDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Peopple\Controls\ctrlPersonEmailContact.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Peopple\Controls\ctrlPersonEmailContact.Designer.cs">
+      <DependentUpon>ctrlPersonEmailContact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductOrders\Controls\ctrlProductItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProductOrders\Controls\ctrlProductItem.Designer.cs">
+      <DependentUpon>ctrlProductItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductOrders\Controls\ctrlshowProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProductOrders\Controls\ctrlshowProduct.Designer.cs">
+      <DependentUpon>ctrlshowProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\Controls\ctrlUserDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users\Controls\ctrlUserDetails.Designer.cs">
+      <DependentUpon>ctrlUserDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Peopple\Controls\ctrlConfirmPersonEmailAndPassword.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Peopple\Controls\ctrlConfirmPersonEmailAndPassword.Designer.cs">
+      <DependentUpon>ctrlConfirmPersonEmailAndPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Peopple\frmEditPersonEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Peopple\frmEditPersonEmail.Designer.cs">
+      <DependentUpon>frmEditPersonEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Peopple\frmEditPersonName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Peopple\frmEditPersonName.Designer.cs">
+      <DependentUpon>frmEditPersonName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Peopple\frmEditPersonPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Peopple\frmEditPersonPassword.Designer.cs">
+      <DependentUpon>frmEditPersonPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreditCards\frmAddUpdateCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreditCards\frmAddUpdateCard.Designer.cs">
+      <DependentUpon>frmAddUpdateCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Peopple\frmAddUpdatePerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Peopple\frmAddUpdatePerson.Designer.cs">
+      <DependentUpon>frmAddUpdatePerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductOrders\frmAddUpdateProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductOrders\frmAddUpdateProduct.Designer.cs">
+      <DependentUpon>frmAddUpdateProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmAddUpdateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmAddUpdateUser.Designer.cs">
+      <DependentUpon>frmAddUpdateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\frmAllCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Categories\frmAllCategories.Designer.cs">
+      <DependentUpon>frmAllCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreditCards\frmCardDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreditCards\frmCardDetails.Designer.cs">
+      <DependentUpon>frmCardDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreditCards\frmCreditCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreditCards\frmCreditCard.Designer.cs">
+      <DependentUpon>frmCreditCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreditCards\frmFindCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreditCards\frmFindCard.Designer.cs">
+      <DependentUpon>frmFindCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Peopple\frmFindPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Peopple\frmFindPerson.Designer.cs">
+      <DependentUpon>frmFindPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductOrders\frmFindProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductOrders\frmFindProduct.Designer.cs">
+      <DependentUpon>frmFindProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmFindUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmFindUser.Designer.cs">
+      <DependentUpon>frmFindUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\frmLoginByUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\frmLoginByUser.Designer.cs">
+      <DependentUpon>frmLoginByUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\frmLoginScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\frmLoginScreen.Designer.cs">
+      <DependentUpon>frmLoginScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Orders\frmOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Orders\frmOrders.Designer.cs">
+      <DependentUpon>frmOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Peopple\frmPeople.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Peopple\frmPeople.Designer.cs">
+      <DependentUpon>frmPeople.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Peopple\frmPersonDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Peopple\frmPersonDetails.Designer.cs">
+      <DependentUpon>frmPersonDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Peopple\frmPersonPhoneContact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Peopple\frmPersonPhoneContact.Designer.cs">
+      <DependentUpon>frmPersonPhoneContact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPhoneStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPhoneStore.Designer.cs">
+      <DependentUpon>frmPhoneStore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductOrders\frmProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductOrders\frmProducts.Designer.cs">
+      <DependentUpon>frmProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Peopple\frmSendMessageViaEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Peopple\frmSendMessageViaEmail.Designer.cs">
+      <DependentUpon>frmSendMessageViaEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductOrders\frmShowDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductOrders\frmShowDetails.Designer.cs">
+      <DependentUpon>frmShowDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductOrders\frmShowProductToPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductOrders\frmShowProductToPerson.Designer.cs">
+      <DependentUpon>frmShowProductToPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmUserDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmUserDetails.Designer.cs">
+      <DependentUpon>frmUserDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmUsers.Designer.cs">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductOrders\frmProductOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductOrders\frmProductOrders.Designer.cs">
+      <DependentUpon>frmProductOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CreditCards\Controls\ctrlCardDetails.resx">
+      <DependentUpon>ctrlCardDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orders\Controls\ctrlProductItems.resx">
+      <DependentUpon>ctrlProductItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Peopple\Controls\ctrlContactByPhone.resx">
+      <DependentUpon>ctrlContactByPhone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreditCards\Controls\ctrlFindCard.resx">
+      <DependentUpon>ctrlFindCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Peopple\Controls\ctrlFindPerson.resx">
+      <DependentUpon>ctrlFindPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductOrders\Controls\ctrlFindProduct.resx">
+      <DependentUpon>ctrlFindProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\Controls\ctrlFindUser.resx">
+      <DependentUpon>ctrlFindUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Peopple\Controls\ctrlPersonDetails.resx">
+      <DependentUpon>ctrlPersonDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Peopple\Controls\ctrlPersonEmailContact.resx">
+      <DependentUpon>ctrlPersonEmailContact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductOrders\Controls\ctrlProductItem.resx">
+      <DependentUpon>ctrlProductItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductOrders\Controls\ctrlshowProduct.resx">
+      <DependentUpon>ctrlshowProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\Controls\ctrlUserDetails.resx">
+      <DependentUpon>ctrlUserDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Peopple\Controls\ctrlConfirmPersonEmailAndPassword.resx">
+      <DependentUpon>ctrlConfirmPersonEmailAndPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Peopple\frmEditPersonEmail.resx">
+      <DependentUpon>frmEditPersonEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Peopple\frmEditPersonName.resx">
+      <DependentUpon>frmEditPersonName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Peopple\frmEditPersonPassword.resx">
+      <DependentUpon>frmEditPersonPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreditCards\frmAddUpdateCard.resx">
+      <DependentUpon>frmAddUpdateCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Peopple\frmAddUpdatePerson.resx">
+      <DependentUpon>frmAddUpdatePerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductOrders\frmAddUpdateProduct.resx">
+      <DependentUpon>frmAddUpdateProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmAddUpdateUser.resx">
+      <DependentUpon>frmAddUpdateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Categories\frmAllCategories.resx">
+      <DependentUpon>frmAllCategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreditCards\frmCardDetails.resx">
+      <DependentUpon>frmCardDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreditCards\frmCreditCard.resx">
+      <DependentUpon>frmCreditCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreditCards\frmFindCard.resx">
+      <DependentUpon>frmFindCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Peopple\frmFindPerson.resx">
+      <DependentUpon>frmFindPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductOrders\frmFindProduct.resx">
+      <DependentUpon>frmFindProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmFindUser.resx">
+      <DependentUpon>frmFindUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\frmLoginByUser.resx">
+      <DependentUpon>frmLoginByUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\frmLoginScreen.resx">
+      <DependentUpon>frmLoginScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orders\frmOrders.resx">
+      <DependentUpon>frmOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Peopple\frmPeople.resx">
+      <DependentUpon>frmPeople.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Peopple\frmPersonDetails.resx">
+      <DependentUpon>frmPersonDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Peopple\frmPersonPhoneContact.resx">
+      <DependentUpon>frmPersonPhoneContact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPhoneStore.resx">
+      <DependentUpon>frmPhoneStore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductOrders\frmProducts.resx">
+      <DependentUpon>frmProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Peopple\frmSendMessageViaEmail.resx">
+      <DependentUpon>frmSendMessageViaEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductOrders\frmShowDetails.resx">
+      <DependentUpon>frmShowDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductOrders\frmShowProductToPerson.resx">
+      <DependentUpon>frmShowProductToPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmUserDetails.resx">
+      <DependentUpon>frmUserDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmUsers.resx">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductOrders\frmProductOrders.resx">
+      <DependentUpon>frmProductOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

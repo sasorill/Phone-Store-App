@@ -1,0 +1,9 @@
+C:\Users\sasor\source\repos\Phone_Store_Business\bin\Debug\Phone_Store_Business.dll
+C:\Users\sasor\source\repos\Phone_Store_Business\bin\Debug\Phone_Store_Business.pdb
+C:\Users\sasor\source\repos\Phone_Store_Business\bin\Debug\Shop_Store_Access.dll
+C:\Users\sasor\source\repos\Phone_Store_Business\bin\Debug\Shop_Store_Access.pdb
+C:\Users\sasor\source\repos\Phone_Store_Business\obj\Debug\Phone_Store_Business.csproj.AssemblyReference.cache
+C:\Users\sasor\source\repos\Phone_Store_Business\obj\Debug\Phone_Store_Business.csproj.CoreCompileInputs.cache
+C:\Users\sasor\source\repos\Phone_Store_Business\obj\Debug\Phone_St.6BA590D8.Up2Date
+C:\Users\sasor\source\repos\Phone_Store_Business\obj\Debug\Phone_Store_Business.dll
+C:\Users\sasor\source\repos\Phone_Store_Business\obj\Debug\Phone_Store_Business.pdb
